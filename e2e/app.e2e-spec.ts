@@ -1,10 +1,10 @@
-import { SoccerAppPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('soccer-app App', () => {
-  let page: SoccerAppPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new SoccerAppPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
