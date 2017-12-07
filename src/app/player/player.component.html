@@ -1,0 +1,14 @@
+<div>
+  player works!
+  <br/>
+  id={{this.id}}
+  <br/>
+  <div *ngIf='this.results'> 
+    שם:{{this.results.data.hebrewName}}
+    <br/>
+    מספר: {{this.results.data.shirtNumber}}
+
+    <img src='//d3jv0e4bp39jgm.cloudfront.net/wp-content/themes/kingclub-theme/images/players/100/{{this.results.data.id}}.png' />
+  </div>
+  
+</div>
